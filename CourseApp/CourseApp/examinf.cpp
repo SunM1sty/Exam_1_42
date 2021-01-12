@@ -75,14 +75,15 @@ int main()
     string SecondUserName;
     cout << "Player 1 enter your name: " << endl;
     cin >> FirstUserName;
-    cout << "Player 1 choose your item (1 - Rock, 2 - Paper, 3 - Scissors): " << endl;
+    cout << "Player 1 choose your item (1 - Rock, 2 - Scissors, 3 - Paper): " << endl;
     cin >> FirstUserChoose;
     system("cls");
     cout << "Player 2 enter your name: " << endl;
     cin >> SecondUserName;
-    cout << "Player 2 choose your item (1 - Rock, 2 - Paper, 3 - Scissors): " << endl;
+    cout << "Player 2 choose your item (1 - Rock, 2 - Scissors, 3 - Paper): " << endl;
     cin >> SecondUserChoose;
     system("cls");
     Game first(FirstUserName, FirstUserChoose, SecondUserName, SecondUserChoose);
-
+    system("pause");
+    return 0;
 }

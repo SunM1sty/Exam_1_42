@@ -31,3 +31,12 @@ class Game:
             print(f'Draw, because both players chose {self.__items[self.__player_1_choice]}')
         else:
             print(f'{self.player_1.nickname}: {self.__items[self.__player_1_choice]} VS {self.player_2.nickname}: {self.__items[self.__player_2_choice]} \n{self.player_2.nickname} wins')
+            
+            
+            
+            
+            
+            
+class NewList(list):
+    def odd_length(self):
+        return len(self) % 2 == 1

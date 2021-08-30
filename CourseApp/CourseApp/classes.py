@@ -32,7 +32,5 @@ class Game:
         else:
             print(f'{self.player_1.nickname}: {self.__items[self.__player_1_choice]} VS {self.player_2.nickname}: {self.__items[self.__player_2_choice]} \n{self.player_2.nickname} wins')
             
-x = [3, 5, 0, 1, -4]
-y = [number * number for number in x] #мы можем использовать такой стиль написания кода, вместо...
-for number in x:
-    y.append(number*number)
+name = input()
+print(f'Hello {name}')
